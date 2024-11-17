@@ -28,6 +28,7 @@ if ($currentLanguage === "en") {
   <title>NAZET GmbH - <?php echo $translations["title"]; ?></title>
   <meta content="<?php echo $translations["metaDescription"]; ?>" name="description">
   <meta content="<?php echo $translations["metaKeywords"]; ?>" name="keywords">
+  <meta content="Peter B. Kostandy [www.linkedin.com/in/peterkostandy]" name="Author">
 
   <!-- meta -->
   <meta property="og:title" content="NAZET GmbH - <?php echo $translations["title"]; ?>" />
