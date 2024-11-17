@@ -247,7 +247,7 @@ h6 {
 .about .get-started-btn:focus:hover {
   color: #fff;
   background: #2b1e05;
-  border-color: #f8b125;
+  border-color: #2b1e05;
 }
 
 .navbar>ul>li>.get-started-btn:before {
@@ -613,7 +613,7 @@ section {
 .about .count-box i {
   display: block;
   font-size: 48px;
-  color: #a1bdd1;
+  color: #f8b125;
   float: left;
   line-height: 0;
 }
@@ -1166,7 +1166,7 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #a1bdd1;
+  background-color: #f8b125;
   opacity: 0.5;
 }
 

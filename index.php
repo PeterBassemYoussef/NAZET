@@ -112,40 +112,29 @@ if ($currentLanguage === "en") {
 
         <div class="section-title">
           <h2><?php echo $translations["About"]; ?></h2>
-          <p><?php echo $translations["About Us"]; ?></p>
+          <p><?php echo $translations["aboutUsTitle"]; ?></p>
         </div>
 
         <div class="row">
 
           <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-            <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a> -->
+            <img src="assets/img/about.webp" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content">
-            <h3><?php echo $translations["AboutSubtitle"]; ?></h3>
-            <p class="fst-italic"><?php echo $translations["AboutDesc"]; ?></p>
-            <h3><?php echo $translations["Why Us"]; ?></h3>
-            <p class="fst-italic"><?php echo $translations["Why Us Start"]; ?></p>
+            <h3><?php echo $translations["shortTitle"]; ?></h3>
+            <p class="fst-italic"><?php echo $translations["description"]; ?></p>
             <div class="row">
-              <div class="col-lg-6">
+              <div class="col-lg-12">
                 <ul>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why1"]; ?></li>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why2"]; ?></li>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why3"]; ?></li>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why4"]; ?></li>
-                </ul>
-              </div>
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why5"]; ?></li>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why6"]; ?></li>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why7"]; ?></li>
-                  <li><i class="bx bx-check-double"></i> <?php echo $translations["Why8"]; ?></li>
+                  <li><i class="bx bx-check-double"></i> <?php echo $translations["powerKey1"]; ?></li>
+                  <li><i class="bx bx-check-double"></i> <?php echo $translations["powerKey2"]; ?></li>
+                  <li><i class="bx bx-check-double"></i> <?php echo $translations["powerKey3"]; ?></li>
+                  <li><i class="bx bx-check-double"></i> <?php echo $translations["powerKey4"]; ?></li>
                 </ul>
               </div>
             </div>
-            <p class=""><?php echo $translations["Why End"]; ?></p>
+            <p class=""><?php echo $translations["closingText"]; ?></p>
             <br />
             <a href="#services" class="get-started-btn scrollto"><?php echo $translations["Our Services"]; ?></a>
             <br />
@@ -203,37 +192,37 @@ if ($currentLanguage === "en") {
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
             <div class="card">
-              <img src="assets/img/about-boxes-1.jpg" class="card-img-top" alt="...">
+              <img src="assets/img/about-boxes-1.webp" class="card-img-top" alt="...">
               <div class="card-icon">
                 <i class="ri-brush-4-line"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href=""><?php echo $translations["Our Mission"]; ?></a></h5>
-                <p class="card-text"><?php echo $translations["Our Mission Desc"]; ?></p>
+                <h5 class="card-title"><a href=""><?php echo $translations["missionTitle"]; ?></a></h5>
+                <p class="card-text"><?php echo $translations["missionDescription"]; ?></p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <img src="assets/img/about-boxes-2.jpg" class="card-img-top" alt="...">
+              <img src="assets/img/about-boxes-2.webp" class="card-img-top" alt="...">
               <div class="card-icon">
                 <i class="ri-calendar-check-line"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href=""><?php echo $translations["Our Plan"]; ?></a></h5>
-                <p class="card-text"><?php echo $translations["Our Plan Desc"]; ?></p>
+                <h5 class="card-title"><a href=""><?php echo $translations["planTitle"]; ?></a></h5>
+                <p class="card-text"><?php echo $translations["planDescription"]; ?></p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
             <div class="card">
-              <img src="assets/img/about-boxes-3.jpg" class="card-img-top" alt="...">
+              <img src="assets/img/about-boxes-3.webp" class="card-img-top" alt="...">
               <div class="card-icon">
                 <i class="ri-movie-2-line"></i>
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href=""><?php echo $translations["Our Vision"]; ?></a></h5>
-                <p class="card-text"><?php echo $translations["Our Vision Desc"]; ?></p>
+                <h5 class="card-title"><a href=""><?php echo $translations["visionTitle"]; ?></a></h5>
+                <p class="card-text"><?php echo $translations["visionDescription"]; ?></p>
               </div>
             </div>
           </div>
