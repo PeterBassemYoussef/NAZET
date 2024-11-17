@@ -47,33 +47,49 @@ $translations = [
     "visionEngagingTitle" => "Nachhaltige Zukunft durch innovative Bauweise",
     "visionDescription" => "Unsere Vision ist es, durch langlebige und energieeffiziente Estrich- und Dämmarbeiten eine nachhaltige Bauweise zu fördern und so einen positiven Beitrag für die Umwelt und unsere Kunden zu leisten.",
 
-    "Check our Services" => "Prüfen Sie unsere Dienstleistungen",
-    "Services Start" => "Wir von NAZET GmbH Cleaning Services sind stolz darauf, eine breite Palette professioneller Reinigungslösungen anbieten zu können, die auf Ihre individuellen Bedürfnisse zugeschnitten sind. <br/>Unser engagiertes Team ist bestrebt, Exzellenz in jedem Detail zu liefern, um sicherzustellen, dass Ihre Räume nicht nur sauber sind, sondern in makellose Umgebungen verwandelt werden.",
-    "Service 1" => "Haushaltsreinigung",
-    "Service Desc 1" => "Verwandeln Sie Ihr Zuhause in ein makelloses Heiligtum mit unseren sorgfältigen Haushaltsreinigungsdiensten. Wir achten auf jedes Detail, um einen Raum zu schaffen, der Sauberkeit und Komfort ausstrahlt.",
-    "Service 2" => "Glas- und Fensterreinigung",
-    "Service Desc 2" => "Lassen Sie die Sonne herein! Unsere professionelle Fenster- und Glasreinigung sorgt für kristallklare Sicht und eine hellere Atmosphäre.",
-    "Service 3" => "Teppichreinigung",
-    "Service Desc 3" => "Beleben Sie Ihre Teppiche mit unseren fortschrittlichen Reinigungstechniken und sorgen Sie für eine frische und einladende Umgebung in Ihrem Zuhause oder Büro.",
-    "Service 4" => "Polstermöbel-Reinigung",
-    "Service Desc 4" => "Stellen Sie die Schönheit und Hygiene Ihrer Möbel mit unserer Polsterreinigung wieder her. Wir entfernen Flecken, Gerüche und Allergene, so dass Ihre Möbel wieder wie neu aussehen und sich auch so anfühlen.",
-    "Service 5" => "Treppenhausreinigung",
-    "Service Desc 5" => "Verbessern Sie die Sauberkeit Ihrer Treppenhäuser mit unseren speziellen Reinigungslösungen und schaffen Sie einen sicheren und einladenden Durchgang für alle.",
-    "Service 6" => "Industrielle Reinigung",
-    "Service Desc 6" => "Von Lagerhäusern bis hin zu Produktionsstätten sorgen unsere Industriereinigungsdienste für eine saubere und organisierte Umgebung, die den höchsten Industriestandards entspricht.",
-    "Service 7" => "Büroreinigung",
-    "Service Desc 7" => "Steigern Sie die Produktivität und schaffen Sie eine positive Arbeitsatmosphäre mit unseren zuverlässigen Büroreinigungsdiensten. Wir passen unseren Ansatz an die individuellen Bedürfnisse Ihres Unternehmens an.",
-    "Service 8" => "Grundreinigung",
-    "Service Desc 8" => "Unsere Grundreinigungsdienste decken die wichtigsten Aufgaben ab und sorgen für eine durchgehend saubere und hygienische Umgebung für Ihre täglichen Aktivitäten.",
-    "Service 9" => "Gebäudereinigung",
-    "Service Desc 9" => "Mit unserem umfassenden Gebäudereinigungsservice halten Sie Ihr Gebäude innen und außen in einem tadellosen Zustand.",
-    "Service 10" => "Hotel-Reinigung",
-    "Service Desc 10" => "Beeindrucken Sie Ihre Gäste mit einer makellosen und einladenden Hotelumgebung. Bei unseren Hotelreinigungsdiensten stehen Sauberkeit und Gästezufriedenheit an erster Stelle.",
-    "Service 11" => "Abbruch",
-    "Service Desc 11" => "Bei Projekten, die einen Abriss erfordern, können Sie sich darauf verlassen, dass wir den Prozess sicher und effizient abwickeln, so dass Sie eine saubere Weste für Ihr nächstes Projekt haben.",
-    "Service 12" => "Transport",
-    "Service Desc 12" => "Wir bieten einen zuverlässigen Transportdienst, der sicherstellt, dass unsere Reinigungskräfte und -geräte pünktlich eintreffen, um einen hervorragenden Service zu bieten.",
-    "Services End" => "Entdecken Sie den NAZET GmbH-Unterschied und lassen Sie uns Sauberkeit in Ihren Räumen zu einer Kunstform machen. <br><strong>Ihre Zufriedenheit ist unser Erfolg!</strong>",
+    "ourServicesTitle" => "Exzellente Lösungen für Ihr Bauprojekt",
+    "ourServicesDesc" => "Mit einer breiten Palette an Estrich- und Dämmlösungen bieten wir bei NAZET GmbH maßgeschneiderte Services, die höchste Qualität und Langlebigkeit garantieren.",
+
+    "service1Title" => "Estrichbau",
+    "service1Desc" => "Maßgeschneiderte Estrichlösungen für jedes Bauvorhaben – von der Vorbereitung des Untergrunds bis zur perfekten Ausführung.",
+
+    "service2Title" => "Zementestrich",
+    "service2Desc" => "Sorgt für Stabilität und Belastbarkeit – ideal für stark beanspruchte Böden in Wohn- und Gewerbebauten.",
+
+    "service3Title" => "Anhydritestrich",
+    "service3Desc" => "Bietet schnelle Trocknung und hohe Festigkeit, perfekt für moderne Bauprojekte mit hohen Ansprüchen an Qualität und Präzision.",
+
+    "service4Title" => "Heizestrich",
+    "service4Desc" => "Kombiniert die Vorteile von Estrich und Fußbodenheizung für eine gleichmäßige Wärmeverteilung und maximalen Komfort.",
+
+    "service5Title" => "Schwimmender Estrich",
+    "service5Desc" => "Schützt vor Wärmeverlust und verbessert die Schalldämmung – ideal für Wohnräume und Büros.",
+
+    "service6Title" => "Verbundestrich",
+    "service6Desc" => "Direkt mit dem Untergrund verbunden, bietet hervorragende Festigkeit und Haltbarkeit für langlebige Böden.",
+
+    "service7Title" => "Gefälleestrich",
+    "service7Desc" => "Optimale Entwässerung von Böden – häufig verwendet in Bädern und industriellen Anwendungen.",
+
+    "service8Title" => "Gebundene Schüttung",
+    "service8Desc" => "Bietet eine stabile Grundlage und eignet sich besonders für die Dämmung von Böden und Wänden.",
+
+    "service9Title" => "Wärmedämmung",
+    "service9Desc" => "Effiziente Dämmlösungen, die Energie sparen und für ein angenehmes Raumklima sorgen – ideal für Neubauten und Renovierungen.",
+
+    "service10Title" => "Trittschalldämmung",
+    "service10Desc" => "Reduziert Lärm und sorgt für eine ruhige und komfortable Wohnatmosphäre.",
+
+    "service11Title" => "Dämmung",
+    "service11Desc" => "Kombinierte Dämm- und Estrichlösungen für schnelle Verlegung und hervorragende Dämmwerte – für effiziente Bauprozesse.",
+
+    "service12Title" => "Schnellestrich",
+    "service12Desc" => "Für schnellere Bauprozesse – bietet exzellente Dämmwerte und eine schnelle Verlegung.",
+
+    "service13Title" => "Feuchtigkeitssperre",
+    "service13Desc" => "Schützt Böden und Wände vor Feuchtigkeitsschäden – besonders wichtig für Keller und Bauvorhaben mit hoher Feuchtigkeitsbelastung.",
+
+    "serviceClosingText" => "Mit NAZET GmbH erhalten Sie nicht nur Fachwissen und Erfahrung, sondern auch maßgeschneiderte Lösungen, die Ihr Bauprojekt auf das nächste Level heben. Vertrauen Sie auf unsere Expertise für langlebige und effiziente Estrich- und Dämmarbeiten.",
 
     "Contact" => "Kontakt",
     "Our Address" => "Unsere Adresse",

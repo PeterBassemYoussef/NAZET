@@ -48,33 +48,49 @@ $translations = [
     "visionEngagingTitle" => "A Sustainable Future Through Innovative Building",
     "visionDescription" => "Our vision is to promote sustainable building through durable, energy-efficient screed and insulation work, contributing positively to both the environment and our clients.",
 
-    "Check our Services" => "Check our Services",
-    "Services Start" => "At NAZET GmbH Cleaning Services, we take pride in offering a diverse range of professional cleaning solutions tailored to meet your unique needs. <br/>Our dedicated team is committed to delivering excellence in every detail, ensuring your spaces are not just clean but transformed into pristine environments.",
-    "Service 1" => "Household Cleaning",
-    "Service Desc 1" => "Transform your home into a pristine sanctuary with our meticulous household cleaning services. We pay attention to every detail to create a space that radiates cleanliness and comfort.",
-    "Service 2" => "Glass and Window Cleaning",
-    "Service Desc 2" => "Let the sunshine in! Our professional window and glass cleaning services guarantee crystal-clear views and a brighter atmosphere.",
-    "Service 3" => "Carpet Cleaning",
-    "Service Desc 3" => "Revitalize your carpets and rugs with our advanced cleaning techniques, ensuring a fresh and inviting environment for your home or office.",
-    "Service 4" => "Upholstery Cleaning",
-    "Service Desc 4" => "Restore the beauty and hygiene of your furniture with our upholstery cleaning services. We remove stains, odors, and allergens, leaving your furnishings looking and feeling brand new.",
-    "Service 5" => "Stairwell Cleaning",
-    "Service Desc 5" => "Elevate the cleanliness of your stairwells with our specialized cleaning solutions, creating a safe and welcoming passage for everyone.",
-    "Service 6" => "Industrial Cleaning",
-    "Service Desc 6" => "From warehouses to manufacturing facilities, our industrial cleaning services maintain a clean and organized environment that adheres to the highest industry standards.",
-    "Service 7" => "Office Cleaning",
-    "Service Desc 7" => "Boost productivity and create a positive work atmosphere with our reliable office cleaning services. We tailor our approach to suit the unique needs of your business.",
-    "Service 8" => "Basic Cleaning",
-    "Service Desc 8" => "Our basic cleaning services cover essential tasks, ensuring a consistently clean and hygienic space for your daily activities.",
-    "Service 9" => "Building Cleaning",
-    "Service Desc 9" => "Keep your building's exterior and interior in impeccable condition with our comprehensive building cleaning services.",
-    "Service 10" => "Hotel Cleaning",
-    "Service Desc 10" => "Impress your guests with a spotless and inviting hotel environment. Our hotel cleaning services prioritize cleanliness and guest satisfaction.",
-    "Service 11" => "Demolition",
-    "Service Desc 11" => "For projects that require demolition, trust us to handle the process safely and efficiently, leaving you with a clean slate for your next venture.",
-    "Service 12" => "Transportation",
-    "Service Desc 12" => "We offer reliable transportation services, ensuring that our cleaning professionals and equipment arrive promptly to deliver exceptional service.",
-    "Services End" => "Discover the NAZET GmbH difference and let us make cleanliness an art form in your space. <br><strong>Your satisfaction is our success!</strong>",
+    "ourServicesTitle" => "Excellent Solutions for Your Construction Project",
+    "ourServicesDesc" => "At NAZET GmbH, we offer a wide range of screed and insulation solutions, providing custom services that guarantee the highest quality and longevity.",
+
+    "service1Title" => "Screed Construction",
+    "service1Desc" => "Custom screed solutions for every construction project – from surface preparation to flawless execution.",
+
+    "service2Title" => "Cement Screed",
+    "service2Desc" => "Ensures stability and load-bearing capacity – ideal for high-traffic floors in residential and commercial buildings.",
+
+    "service3Title" => "Anhydrite Screed",
+    "service3Desc" => "Offers fast drying and high strength, perfect for modern construction projects that require high precision and quality.",
+
+    "service4Title" => "Heated Screed",
+    "service4Desc" => "Combines the benefits of screed and underfloor heating for even heat distribution and maximum comfort.",
+
+    "service5Title" => "Floating Screed",
+    "service5Desc" => "Protects against heat loss and improves soundproofing – ideal for residential and office spaces.",
+
+    "service6Title" => "Bonded Screed",
+    "service6Desc" => "Directly bonded to the subfloor, offering excellent strength and durability for long-lasting floors.",
+
+    "service7Title" => "Sloping Screed",
+    "service7Desc" => "Ensures optimal drainage of floors – commonly used in bathrooms and industrial applications.",
+
+    "service8Title" => "Bonded Fill",
+    "service8Desc" => "Provides a stable foundation and is especially useful for insulating floors and walls.",
+
+    "service9Title" => "Thermal Insulation",
+    "service9Desc" => "Efficient insulation solutions that save energy and create a comfortable indoor climate – ideal for new builds and renovations.",
+
+    "service10Title" => "Impact Sound Insulation",
+    "service10Desc" => "Reduces noise and provides a quiet, comfortable living environment.",
+
+    "service11Title" => "Insulation",
+    "service11Desc" => "Combined insulation and screed solutions for quick installation and excellent thermal properties – perfect for efficient construction processes.",
+
+    "service12Title" => "Rapid Screed",
+    "service12Desc" => "Provides fast installation and excellent thermal properties – ideal for rapid construction projects.",
+
+    "service13Title" => "Moisture Barrier",
+    "service13Desc" => "Protects floors and walls from moisture damage – essential for basements and areas with high humidity.",
+
+    "serviceClosingText" => "With NAZET GmbH, you receive not only expertise and experience but also custom solutions that elevate your construction project to the next level. Trust our expertise for durable and efficient screed and insulation work.",
 
     "Contact" => "Contact",
     "Our Address" => "Our Address",

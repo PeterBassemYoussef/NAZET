@@ -3,19 +3,19 @@
 <?php
 // Check if the 'lang' parameter exists in the URL
 if (isset($_GET['lang'])) {
-  $currentLanguage = $_GET['lang'] === "de" ? "de" : "en";
+    $currentLanguage = $_GET['lang'] === "de" ? "de" : "en";
 } else {
-  $currentLanguage = 'de'; // Default to German
+    $currentLanguage = 'de'; // Default to German
 }
 
 if ($currentLanguage === "en") {
-  include('lang/en.php');
-  $param = '?lang=en';
-  $buttonText = 'Deutschland'; // Set button text to "Deutschland"
+    include 'lang/en.php';
+    $param = '?lang=en';
+    $buttonText = 'Deutschland'; // Set button text to "Deutschland"
 } elseif ($currentLanguage === "de") {
-  include('lang/de.php');
-  $param = '?lang=de';
-  $buttonText = 'English'; // Set button text to "English"
+    include 'lang/de.php';
+    $param = '?lang=de';
+    $buttonText = 'English'; // Set button text to "English"
 }
 ?>
 
@@ -231,17 +231,17 @@ if ($currentLanguage === "en") {
       </div>
     </section><!-- End About Boxes Section -->
 
-    
+
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
           <h2><?php echo $translations["Services"]; ?></h2>
-          <p><?php echo $translations["Check our Services"]; ?></p>
+          <p><?php echo $translations["ourServicesTitle"]; ?></p>
         </div>
 
-        <h5 class="fst-italic" data-aos="fade-up"><?php echo $translations["Services Start"]; ?></h5>
+        <h5 class="fst-italic" data-aos="fade-up"><?php echo $translations["ourServicesDesc"]; ?></h5>
         <br />
 
         <div class="row" data-aos="fade-up">
@@ -250,8 +250,8 @@ if ($currentLanguage === "en") {
             <div class="service" data-aos="fade-up" data-aos-delay="100">
               <div class="pic"><img src="assets/img/services/service-1.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 1"]; ?></h4>
-                <span><?php echo $translations["Service Desc 1"]; ?></span>
+                <h4><?php echo $translations["service1Title"]; ?></h4>
+                <span><?php echo $translations["service1Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -260,8 +260,8 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-2.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 2"]; ?></h4>
-                <span><?php echo $translations["Service Desc 2"]; ?></span>
+                <h4><?php echo $translations["service2Title"]; ?></h4>
+                <span><?php echo $translations["service2Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -270,8 +270,8 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-3.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 3"]; ?></h4>
-                <span><?php echo $translations["Service Desc 3"]; ?></span>
+                <h4><?php echo $translations["service3Title"]; ?></h4>
+                <span><?php echo $translations["service3Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -280,8 +280,8 @@ if ($currentLanguage === "en") {
             <div class="service" data-aos="fade-up" data-aos-delay="100">
               <div class="pic"><img src="assets/img/services/service-4.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 4"]; ?></h4>
-                <span><?php echo $translations["Service Desc 4"]; ?></span>
+                <h4><?php echo $translations["service4Title"]; ?></h4>
+                <span><?php echo $translations["service4Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -290,8 +290,8 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-5.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 5"]; ?></h4>
-                <span><?php echo $translations["Service Desc 5"]; ?></span>
+                <h4><?php echo $translations["service5Title"]; ?></h4>
+                <span><?php echo $translations["service5Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -300,8 +300,8 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-6.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 6"]; ?></h4>
-                <span><?php echo $translations["Service Desc 6"]; ?></span>
+                <h4><?php echo $translations["service6Title"]; ?></h4>
+                <span><?php echo $translations["service6Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -310,8 +310,8 @@ if ($currentLanguage === "en") {
             <div class="service" data-aos="fade-up" data-aos-delay="100">
               <div class="pic"><img src="assets/img/services/service-7.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 7"]; ?></h4>
-                <span><?php echo $translations["Service Desc 7"]; ?></span>
+                <h4><?php echo $translations["service7Title"]; ?></h4>
+                <span><?php echo $translations["service7Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -320,8 +320,8 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-8.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 8"]; ?></h4>
-                <span><?php echo $translations["Service Desc 8"]; ?></span>
+                <h4><?php echo $translations["service8Title"]; ?></h4>
+                <span><?php echo $translations["service8Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -330,8 +330,8 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-9.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 9"]; ?></h4>
-                <span><?php echo $translations["Service Desc 9"]; ?></span>
+                <h4><?php echo $translations["service9Title"]; ?></h4>
+                <span><?php echo $translations["service9Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -340,8 +340,8 @@ if ($currentLanguage === "en") {
             <div class="service" data-aos="fade-up" data-aos-delay="100">
               <div class="pic"><img src="assets/img/services/service-10.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 10"]; ?></h4>
-                <span><?php echo $translations["Service Desc 10"]; ?></span>
+                <h4><?php echo $translations["service10Title"]; ?></h4>
+                <span><?php echo $translations["service10Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -350,8 +350,8 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-11.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 11"]; ?></h4>
-                <span><?php echo $translations["Service Desc 11"]; ?></span>
+                <h4><?php echo $translations["service11Title"]; ?></h4>
+                <span><?php echo $translations["service11Desc"]; ?></span>
               </div>
             </div>
           </div>
@@ -360,15 +360,33 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-12.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["Service 12"]; ?></h4>
-                <span><?php echo $translations["Service Desc 12"]; ?></span>
+                <h4><?php echo $translations["service12Title"]; ?></h4>
+                <span><?php echo $translations["service12Desc"]; ?></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="service">
+              <div class="pic"><img src="assets/img/services/service-13.webp" class="img-fluid" alt=""></div>
+              <div class="service-info">
+                <h4><?php echo $translations["service13Title"]; ?></h4>
+                <span><?php echo $translations["service13Desc"]; ?></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 col-md-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="service">
+              <div class="pic"><img src="assets/img/services/service-14.webp" class="img-fluid" alt=""></div>
+              <div class="service-info">
+                <h4><?php echo $translations["service13Title"]; ?></h4>
+                <span class="fst-italic"><?php echo $translations["serviceClosingText"]; ?></span>
               </div>
             </div>
           </div>
 
         </div>
-
-        <h5 class="fst-italic" data-aos="fade-up"><?php echo $translations["Services End"]; ?></h5>
 
         <!-- <div class="row" data-aos="fade-up" data-aos-delay="200">
           <div class="col-md-6">
@@ -803,7 +821,7 @@ if ($currentLanguage === "en") {
               <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="#about"><?php echo $translations["About"]; ?></a></li>
               <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="#services"><?php echo $translations["Services"]; ?></a></li>
               <li><i class="bx bx-chevron-right"></i> <a class="nav-link scrollto" href="#contact"><?php echo $translations["Contact Us"]; ?></a></li>
-              <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href=<?php echo "datenschutz" .  $param ?>><?php echo $translations["Data Protection"]; ?></a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="nav-link" href=<?php echo "datenschutz" . $param ?>><?php echo $translations["Data Protection"]; ?></a></li>
             </ul>
           </div>
 
@@ -830,8 +848,8 @@ if ($currentLanguage === "en") {
   </footer><!-- End Footer -->
 
   <?php
-  include('partials/cookie.php');
-  include('partials/wpp-mobile.php');
+    include 'partials/cookie.php';
+    include 'partials/wpp-mobile.php';
   ?>
 
   <div id="preloader"></div>
