@@ -92,6 +92,9 @@ $translations = [
 
     "serviceClosingText" => "With NAZET GmbH, you receive not only expertise and experience but also custom solutions that elevate your construction project to the next level. Trust our expertise for durable and efficient screed and insulation work.",
 
+    "contactTitle" => "Your Project is in Good Hands!",
+    "contactBeginning" => "We look forward to assisting you with our expertise and tailored solutions for screed construction and insulation. Whether you need advice or would like to request a quote for your construction project, our team is happy to help.",
+
     "Contact" => "Contact",
     "Our Address" => "Our Address",
     "Email" => "EMail",
@@ -106,6 +109,8 @@ $translations = [
     "There was an error in sending your message" => "There was an error in sending your message.",
     "Your message has been sent. Thank you" => "Your message has been sent. Thank you!",
     "Send Message" => "Send Message",
+
+    "contactEnd" => "Don’t hesitate to reach out – let’s discuss your requirements and find the best solutions for your project together. We look forward to hearing from you!",
 
     "Our Newsletter" => "Our Newsletter",
     "Subscribe to our newsletter" => "Subscribe to our newsletter to embark on a journey of property perfection.",
@@ -164,7 +169,7 @@ $translations = [
   Web: www.nazet.de<br>
   <br>
   Email: info@nazet.de<br>
-  Tel: +49 *** ********<br>
+  Tel: +49 176 34634179<br>
   <br>
   The responsible body is the natural or legal person who alone or jointly with others decides on the purposes and means of processing personal data (e.g. names, email addresses, etc.).<br>
   <br>

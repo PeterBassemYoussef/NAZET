@@ -159,7 +159,7 @@ if ($currentLanguage === "en") {
               <div class="info-box mt-4">
                 <i class="bx bx-phone-call"></i>
                 <h3><?php echo $translations["Call Us"]; ?></h3>
-                <p><a href="tel:49***********">+49 *** ********</a></p>
+                <p><a href="tel:4917634634179">+49 176 34634179</a></p>
               </div>
             </div>
           </div>
@@ -210,7 +210,7 @@ if ($currentLanguage === "en") {
               <p>
                 Leutweinstraße 96, <br>
                 68219 Mannheim, Germany<br><br>
-                <strong><?php echo $translations["Phone"]; ?>:</strong> <a href="tel:49***********"> +49 *** ********</a>
+                <strong><?php echo $translations["Phone"]; ?>:</strong> <a href="tel:4917634634179"> +49 176 34634179</a>
                 <br>
                 <strong><?php echo $translations["Email"]; ?>:</strong><a href="mailto:info@nazet.de"> info@nazet.de</a>
                 <br>

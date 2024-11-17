@@ -715,10 +715,12 @@ if ($currentLanguage === "en") {
     <section id="contact" class="contact">
       <div class="container" data-aos="fade-up"">
 
-    <div class=" section-title">
-        <h2><?php echo $translations["Contact"]; ?></h2>
-        <p><?php echo $translations["Contact Us"]; ?></p>
+      <div class=" section-title pb-2">
+        <h2><?php echo $translations["Contact Us"]; ?></h2>
+        <p><?php echo $translations["contactTitle"]; ?></p>
       </div>
+
+      <p class="fst-italic mb-4"><?php echo $translations["contactBeginning"]; ?></p>
 
       <div id="map" class="map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.3867051488055!2d8.5261873!3d49.4205027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797c8f6f4bd89b5%3A0x898e2bca8ac38d3c!2sLeutweinstra%C3%9Fe%2096%2C%2068219%20Mannheim%2C%20Germany!5e0!3m2!1sen!2seg!4v1731325355420!5m2!1sen!2seg" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -727,13 +729,14 @@ if ($currentLanguage === "en") {
       <div class="row">
 
         <div class="col-lg-6">
-
           <div class="row">
             <div class="col-md-12">
               <div class="info-box">
                 <i class="bx bx-map"></i>
                 <h3><?php echo $translations["Our Address"]; ?></h3>
-                <p>Leutweinstraße 96, <br>68219 Mannheim, Germany</p>
+                <p>
+                  <a href="https://maps.app.goo.gl/Dv1Ybk2VioSjvkKr9">iLeutweinstraße 96, 68219 Mannheim, Germany</a>
+                </p>
               </div>
             </div>
             <div class="col-md-6">
@@ -749,11 +752,10 @@ if ($currentLanguage === "en") {
               <div class="info-box mt-4">
                 <i class="bx bx-phone-call"></i>
                 <h3><?php echo $translations["Call Us"]; ?></h3>
-                <p><a href="tel:49***********">+49 *** ********</a></p>
+                <p><a href="tel:4917634634179">+49 176 34634179</a></p>
               </div>
             </div>
           </div>
-
         </div>
 
         <div class="col-lg-6 mt-4 mt-lg-0">
@@ -781,6 +783,10 @@ if ($currentLanguage === "en") {
           </form>
         </div>
 
+        <div class="col-lg-12 mt-5">
+          <p class="fst-italic text-center"><?php echo $translations["contactEnd"]; ?></p>
+        </div>
+
       </div>
 
       </div>
@@ -800,7 +806,7 @@ if ($currentLanguage === "en") {
               <p>
                 Leutweinstraße 96, <br>
                 68219 Mannheim, Germany<br><br>
-                <strong><?php echo $translations["Phone"]; ?>:</strong> <a href="tel:49***********"> +49 *** ********</a>
+                <strong><?php echo $translations["Phone"]; ?>:</strong> <a href="tel:4917634634179"> +49 176 34634179</a>
                 <br>
                 <strong><?php echo $translations["Email"]; ?>:</strong><a href="mailto:info@nazet.de"> info@nazet.de</a>
                 <br>

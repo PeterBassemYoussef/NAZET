@@ -1362,7 +1362,7 @@ section {
 
 .contact .php-email-form .sent-message {
   display: none;
-  color: #fff;
+  color: #000;
   background: #18d26e;
   text-align: center;
   padding: 15px;
@@ -1416,10 +1416,12 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  font-weight: bold;
 }
 
 .contact .php-email-form button[type=submit]:hover {
   background: #f8b125;
+  color: #2b1e05;
 }
 
 @keyframes animate-loading {

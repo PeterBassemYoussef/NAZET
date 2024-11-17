@@ -91,6 +91,9 @@ $translations = [
 
     "serviceClosingText" => "Mit NAZET GmbH erhalten Sie nicht nur Fachwissen und Erfahrung, sondern auch maßgeschneiderte Lösungen, die Ihr Bauprojekt auf das nächste Level heben. Vertrauen Sie auf unsere Expertise für langlebige und effiziente Estrich- und Dämmarbeiten.",
 
+    "contactTitle" => "Ihr Projekt ist bei uns in guten Händen!",
+    "contactBeginning" => "Wir freuen uns darauf, Ihnen mit unserem Fachwissen und unseren maßgeschneiderten Lösungen für Estrichbau und Dämmung weiterzuhelfen. Ob Sie Beratung benötigen oder ein Angebot für Ihr Bauvorhaben einholen möchten, unser Team steht Ihnen gerne zur Verfügung.",
+
     "Contact" => "Kontakt",
     "Our Address" => "Unsere Adresse",
     "Email" => "E-Mail",
@@ -105,6 +108,8 @@ $translations = [
     "There was an error in sending your message" => "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten.",
     "Your message has been sent. Thank you" => "Ihre Nachricht wurde gesendet. Danke schön!",
     "Send Message" => "Nachricht senden",
+
+    "contactEnd" => "Zögern Sie nicht, uns zu kontaktieren – lassen Sie uns gemeinsam Ihre Anforderungen besprechen und die besten Lösungen für Ihr Projekt finden. Wir freuen uns auf Ihre Nachricht!",
 
     "Our Newsletter" => "Unser Newsletter",
     "Subscribe to our newsletter" => "Abonnieren Sie unseren Newsletter und begeben Sie sich auf eine Reise in die Perfektion der Immobilie.",
@@ -164,7 +169,7 @@ Kontakt:<br>
 Web: www.nazet.de<br>
 <br>
 E-Mail: info@nazet.de <br>
-Tel.: +49 *** ********<br>
+Tel.: +49 176 34634179<br>
 <br>
 <br>
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z. B. Namen, E-Mail-Adressen o. Ä.) entscheidet.<br>

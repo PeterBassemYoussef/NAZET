@@ -7,10 +7,9 @@ header('Content-type: application/json');
 require_once('php-mailer/PHPMailerAutoload.php');
 
 // Step 1 - Enter your email address below.
-$email = 'info@nazet.de';
+$email = 'info@wirthreingung.de';
 
-
-$fromEmail = 'subscription@nazet.de';
+$fromEmail = 'subscription@wirthreingung.de';
 
 // If the e-mail is not working, change the debug option to 2 | $debug = 2;
 $debug = 0;
@@ -49,7 +48,7 @@ try {
 	$mail->IsSMTP();                                            // Set mailer to use SMTP
 	$mail->Host = 'smtp.titan.email';				            // Specify main and backup server
 	$mail->SMTPAuth = true;                                     // Enable SMTP authentication
-	$mail->Username = 'subscription@nazet.de';                 // SMTP username
+	$mail->Username = 'subscription@wirthreingung.de';                 // SMTP username
 	$mail->Password = '$ub@2023';                               // SMTP password
 	$mail->SMTPSecure = 'tls';                                  // Enable encryption, 'ssl' also accepted
 	$mail->Port = 587;   								        // TCP port to connect to
