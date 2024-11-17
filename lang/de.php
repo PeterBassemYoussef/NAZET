@@ -5,7 +5,7 @@ $translations = [
     "metaKeywords" => "Estrichbau, Zementestrich, Anhydritestrich, Heizestrich, schwimmender Estrich, Verbundestrich, Gefälleestrich, gebundene Schüttung, Wärmedämmung, Trittschalldämmung, Schnellestrich, Feuchtigkeitssperre, NAZET GmbH, Estrichprofi",
 
     "welcome" => "Willkommen bei NAZET GmbH",
-    "welcomeDesc" => "Ihr Tor zu unvergleichlicher Sauberkeit und hervorragender Wartung!",
+    "welcomeDesc" => "Ihrem Experten für präzisen Estrichbau und hochwertige Dämmungen, die jeden Bau optimal unterstützen!",
 
     "Get Started" => "Loslegen",
 

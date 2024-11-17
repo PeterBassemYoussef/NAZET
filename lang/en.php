@@ -5,7 +5,7 @@ $translations = [
     "metaKeywords" => "screed construction, cement screed, anhydrite screed, heated screed, floating screed, bonded screed, sloping screed, bonded fill, thermal insulation, impact sound insulation, rapid screed, moisture barrier, NAZET GmbH, screed expert",
 
     "welcome" => "Welcome to NAZET GmbH",
-    "welcomeDesc" => "Your Gateway to Unparalleled Cleanliness and Maintenance Excellence!",
+    "welcomeDesc" => "your expert in precise screed construction and high-quality insulation to support every building project!",
 
     "Get Started" => "Get Started",
 

@@ -81,25 +81,6 @@ if ($currentLanguage === "en") {
           <li><a class="nav-link scrollto active" href="#hero"><?php echo $translations["Home"]; ?></a></li>
           <li><a class="nav-link scrollto" href="#about"><?php echo $translations["About"]; ?></a></li>
           <li><a class="nav-link scrollto" href="#services"><?php echo $translations["Services"]; ?></a></li>
-          <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact"><?php echo $translations["Contact Us"]; ?></a></li>
           <li>
             <button id="lang-btn" type="button" class="get-started-btn" onclick="changeLanguage()"><?php echo $buttonText; ?></button>
@@ -114,6 +95,7 @@ if ($currentLanguage === "en") {
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+      <img src="assets/img/logo.png" alt="NAZET GmbH Logo" class="mb-3 img-fluid" style="width: 350px;">
       <h1><?php echo $translations["welcome"]; ?></h1>
       <h2><?php echo $translations["welcomeDesc"]; ?></h2>
       <div class="d-flex">
