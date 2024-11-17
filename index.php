@@ -26,24 +26,24 @@ if ($currentLanguage === "en") {
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
   <title>NAZET GmbH - <?php echo $translations["title"]; ?></title>
-  <meta content="<?php echo $translations["description"]; ?>" name="description">
-  <meta content="<?php echo $translations["keywords"]; ?>" name="keywords">
+  <meta content="<?php echo $translations["metaDescription"]; ?>" name="description">
+  <meta content="<?php echo $translations["metaKeywords"]; ?>" name="keywords">
 
   <!-- meta -->
   <meta property="og:title" content="NAZET GmbH - <?php echo $translations["title"]; ?>" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="<?php echo $translations["description"]; ?>">
+  <meta property="og:description" content="<?php echo $translations["metaDescription"]; ?>">
   <meta property="og:url" content="https://nazet.de/" />
-  <meta property="og:image" content="assets/images/meta-cover.jpg" />
+  <meta property="og:image" content="assets/img/meta-cover.webp" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="800" />
 
   <!-- twittermeta -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="NAZET GmbH - <?php echo $translations["title"]; ?>">
-  <meta name="twitter:site" content="@rf.de">
-  <meta name="twitter:description" content="<?php echo $translations["description"]; ?>">
-  <meta name="twitter:image" content="assets/img/meta-cover.jpg">
+  <meta name="twitter:site" content="@nazet.de">
+  <meta name="twitter:description" content="<?php echo $translations["metaDescription"]; ?>">
+  <meta name="twitter:image" content="assets/img/meta-cover.webp">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
