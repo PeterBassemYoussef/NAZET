@@ -130,6 +130,20 @@ $translations = [
     "Cookie" => 'Urn die besten Erlebnisse zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn Sie diesen Technologien zustimmen, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Die Nichteinwilligung oder der Widerruf der Einwilligung kann Sich nachteilig auf bestimmte Merkmale und Funktionen auswirken.',
     "Cookie Btn" => "Akzeptieren",
 
+    "Information According to § 5 TMG" => "Angaben gemäß § 5 TMG",
+    "CAPITAN Trockenbau Company" => "CAPITAN Trockenbau",
+    "Represented By" => "Vertreten Durch",
+    "Telephone" => "Telefon",
+    "Mobile" => "Mobile",
+    "E-Mail" => "E-Mail",
+    "Tax Number" => "Steuernummer",
+    "Commercial Register" => "Handelsregister",
+
+    "Supervisory Authority" => "Aufsichtsbehörde",
+    "Mannheim Trade Office" => "Gewerbeamt Mannheim",
+
+    "Responsible for the content according to § 55 Abs. 2 RStV" => "Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV",
+
     "Data Protection Text" => "
   Datenschutzerklärung und Informationen zum Datenschutz<br>
 Allgemeine Hinweise<br>

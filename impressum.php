@@ -25,13 +25,13 @@ if ($currentLanguage === "en") {
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>NAZET GmbH - <?php echo $translations["Data Protection"]; ?></title>
+  <title>NAZET GmbH - <?php echo $translations["Imprint"]; ?></title>
   <meta content="<?php echo $translations["metaDescription"]; ?>" name="description">
   <meta content="<?php echo $translations["metaKeywords"]; ?>" name="keywords">
   <meta content="Peter B. Kostandy [www.linkedin.com/in/peterkostandy]" name="Author">
 
   <!-- meta -->
-  <meta property="og:title" content="NAZET GmbH - <?php echo $translations["Data Protection"]; ?>" />
+  <meta property="og:title" content="NAZET GmbH - <?php echo $translations["Imprint"]; ?>" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="<?php echo $translations["metaDescription"]; ?>">
   <meta property="og:url" content="https://nazet.de/" />
@@ -41,7 +41,7 @@ if ($currentLanguage === "en") {
 
   <!-- twittermeta -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="NAZET GmbH - <?php echo $translations["Data Protection"]; ?>">
+  <meta name="twitter:title" content="NAZET GmbH - <?php echo $translations["Imprint"]; ?>">
   <meta name="twitter:site" content="@nazet.de">
   <meta name="twitter:description" content="<?php echo $translations["metaDescription"]; ?>">
   <meta name="twitter:image" content="assets/img/meta-cover.webp">
@@ -100,26 +100,15 @@ if ($currentLanguage === "en") {
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2><?php echo $translations["Data Protection"]; ?></h2>
+          <h2><?php echo $translations["Imprint"]; ?></h2>
           <ol>
             <li><a href="index"><?php echo $translations["Home"]; ?></a></li>
-            <li><?php echo $translations["Data Protection"]; ?></li>
+            <li><?php echo $translations["Imprint"]; ?></li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
-
-    <section class="inner-page">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="200">
-            <p class="pre_class fst-italic"><?php echo $translations["Data Protection Text"]; ?></p>
-          </div>
-        </div>
-
-      </div>
-    </section>
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -127,7 +116,7 @@ if ($currentLanguage === "en") {
 
     <div class=" section-title">
         <h2><?php echo $translations["Contact"]; ?></h2>
-        <p><?php echo $translations["Contact Us"]; ?></p>
+        <p><?php echo $translations["Imprint"]; ?></p>
       </div>
 
       <div id="map" class="map">
@@ -136,61 +125,41 @@ if ($currentLanguage === "en") {
 
       <div class="row">
 
-        <div class="col-lg-6">
-
-          <div class="row">
-            <div class="col-md-12">
-              <div class="info-box">
-                <i class="bx bx-map"></i>
-                <h3><?php echo $translations["Our Address"]; ?></h3>
-                <p>Leutweinstraße 96, <br>68219 Mannheim, Germany</p>
-              </div>
+        <div class="col-lg-4">
+            <div class="contact-address info-box mt-4">
+                <h4><?php echo $translations["Information According to § 5 TMG"]; ?></h4>
+                <p><strong>Nazet GmbH</strong></p>
+                <address><a href="https://maps.app.goo.gl/Dv1Ybk2VioSjvkKr9" target="_blank">Leutweinstraße 96, <br>68219 Mannheim, Germany</a></address>
+                <br>
+                <h4><?php echo $translations["Represented By"]; ?></h4>
+                <p>Nazet GmbH</p>
+                <br>
             </div>
-            <div class="col-md-6">
-              <div class="info-box mt-4">
-                <i class="bx bx-envelope"></i>
-                <h3><?php echo $translations["Email Us"]; ?></h3>
-                <p>
-                  <a href="mailto:info@nazet.de">info@nazet.de</a>
-                </p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="info-box mt-4">
-                <i class="bx bx-phone-call"></i>
-                <h3><?php echo $translations["Call Us"]; ?></h3>
-                <p><a href="tel:4917634634179">+49 176 34634179</a></p>
-              </div>
-            </div>
-          </div>
-
         </div>
-
-        <div class="col-lg-6 mt-4 mt-lg-0">
-          <form action="forms/contact" method="post" role="form" class="php-email-form">
-            <div class="row">
-              <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="<?php echo $translations["Your Name"]; ?>" required>
-              </div>
-              <div class="col-md-6 form-group mt-3 mt-md-0">
-                <input type="email" class="form-control" name="email" id="email" placeholder="<?php echo $translations["Your Email"]; ?>" required>
-              </div>
+        <div class="col-lg-4">
+            <div class="contact-phone info-box mt-4">
+                <h4><?php echo $translations["Contact"]; ?></h4>
+                <p><strong><?php echo $translations["Telephone"]; ?>:</strong> <a href="tel:4917634634179">+49 176 34634179</a></p>
+                <p><strong><?php echo $translations["E-Mail"]; ?>:</strong> <a href="mailto:info@nazet.de" target="_blank">info@nazet.de</a></p>
+                <p><strong><?php echo $translations["Tax Number"]; ?>:</strong> 38186/39548</p>
+                <p><strong>Ist-IdNr. :</strong> DE367213717</p>
+                <br>
+                <h4><?php echo $translations["Commercial Register"]; ?></h4>
+                <p>HRB 749684 Amtsgericht Mannheim</p>
             </div>
-            <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="<?php echo $translations["Subject"]; ?>" required>
-            </div>
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="<?php echo $translations["Message"]; ?>" required></textarea>
-            </div>
-            <div class="my-3">
-              <div class="loading"><?php echo $translations["Loading"]; ?></div>
-              <div class="error-message"><?php echo $translations["There was an error in sending your message"]; ?></div>
-              <div class="sent-message"><?php echo $translations["Your message has been sent. Thank you"]; ?></div>
-            </div>
-            <div class="text-center"><button type="submit"><?php echo $translations["Send Message"]; ?></button></div>
-          </form>
         </div>
-
+        <div class="col-lg-4">
+            <div class="contact-email info-box mt-4 high">
+                <h4><?php echo $translations["Supervisory Authority"]; ?></h4>
+                <p><?php echo $translations["Supervisory Authority"]; ?></p>
+                <br>
+                <br>
+                <h4><?php echo $translations["Responsible for the content according to § 55 Abs. 2 RStV"]; ?></h4>
+                <p>Nazet GmbH</p>
+                <address><a href="https://maps.app.goo.gl/Dv1Ybk2VioSjvkKr9" target="_blank">Leutweinstraße 96, <br>68219 Mannheim, Germany</a></address>
+                <br>
+            </div>
+        </div>
       </div>
 
       </div>
@@ -199,9 +168,9 @@ if ($currentLanguage === "en") {
   </main><!-- End #main -->
 
 <?php
-  include 'partials/footer.php';
-  include 'partials/cookie.php';
-  include 'partials/wpp-mobile.php';
+    include 'partials/footer.php';
+    include 'partials/cookie.php';
+    include 'partials/wpp-mobile.php';
 ?>
 
   <div id="preloader"></div>

@@ -1328,11 +1328,16 @@ section {
   padding: 8px;
 }
 
-.contact .info-box h3 {
+.contact .info-box h3,
+.contact .info-box h4 {
   font-size: 20px;
   color: #777777;
   font-weight: 700;
   margin: 10px 0;
+}
+
+.contact .info-box h4 {
+  font-size: 15px;
 }
 
 .contact .info-box p {
