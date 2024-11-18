@@ -118,7 +118,7 @@ $translations = [
     "contactEnd" => "Zögern Sie nicht, uns zu kontaktieren – lassen Sie uns gemeinsam Ihre Anforderungen besprechen und die besten Lösungen für Ihr Projekt finden. Wir freuen uns auf Ihre Nachricht!",
 
     "Our Newsletter" => "Unser Newsletter",
-    "Subscribe to our newsletter" => "Abonnieren Sie unseren Newsletter und begeben Sie sich auf eine Reise in die Perfektion der Immobilie.",
+    "Subscribe to our newsletter" => "Bleiben Sie auf dem Laufenden mit den neuesten Trends und Lösungen im Estrichbau und in der Dämmung – Abonnieren Sie unseren Newsletter und erhalten Sie wertvolle Tipps, Angebote und Neuigkeiten direkt in Ihre Inbox!",
     "Subscribe" => "Abonnieren",
 
     "Useful Links" => "Nützliche Links",

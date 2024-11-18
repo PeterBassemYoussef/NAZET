@@ -118,7 +118,7 @@ $translations = [
     "contactEnd" => "Don’t hesitate to reach out – let’s discuss your requirements and find the best solutions for your project together. We look forward to hearing from you!",
 
     "Our Newsletter" => "Our Newsletter",
-    "Subscribe to our newsletter" => "Subscribe to our newsletter to embark on a journey of property perfection.",
+    "Subscribe to our newsletter" => "Stay up to date with the latest trends and solutions in screed construction and insulation – Subscribe to our newsletter and receive valuable tips, offers, and updates directly in your inbox!",
     "Subscribe" => "Subscribe",
 
     "Useful Links" => "Useful Links",
