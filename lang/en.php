@@ -127,10 +127,9 @@ $translations = [
     "All Rights Reserved" => "All Rights Reserved.",
     "Designed by" => "Designed by",
 
-    "Cookie" => 'By clicking "Accept All Cookies", you agree that NAZET GmbH Cleaning may store cookies on your device and share information.',
+    "Cookie" => 'To provide the best experience, we use technologies such as cookies to store and/or access device information. If you consent to these technologies, we may process data such as browsing behavior or unique IDs on this website. Failure to consent or withdrawal of consent may adversely affect certain features and functionality.',
     "Cookie Btn" => "Accept",
 
-    "Data Protection" => "Data Protection",
     "Data Protection Text" => "Data protection declaration and information on data protection<br>
   General information<br>
   The following information provides a simple overview of what happens to your personal data when you visit this website. Personal data is any data that can be used to personally identify you. Detailed information on the subject of data protection can be found in our data protection declaration listed below this text.<br>

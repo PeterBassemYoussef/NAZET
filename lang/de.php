@@ -127,10 +127,9 @@ $translations = [
     "All Rights Reserved" => "Alle Rechte Vorbehalten.",
     "Designed by" => "Entworfen von  ",
 
-    "Cookie" => 'Indem Sie auf „Alle Cookies akzeptieren" klicken, stimmen Sie zu, dass NAZET GmbH Reinigung Cookies auf Ihrem Gerät speichern und Informationen weitergeben darf.',
-    "Cookie Btn" => "Accept",
+    "Cookie" => 'Urn die besten Erlebnisse zu bieten, verwenden wir Technologien wie Cookies, um Geräteinformationen zu speichern und/oder darauf zuzugreifen. Wenn Sie diesen Technologien zustimmen, können wir Daten wie das Surfverhalten oder eindeutige IDs auf dieser Website verarbeiten. Die Nichteinwilligung oder der Widerruf der Einwilligung kann Sich nachteilig auf bestimmte Merkmale und Funktionen auswirken.',
+    "Cookie Btn" => "Akzeptieren",
 
-    "Data Protection" => "Datenschutz",
     "Data Protection Text" => "
   Datenschutzerklärung und Informationen zum Datenschutz<br>
 Allgemeine Hinweise<br>
