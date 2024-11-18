@@ -35,7 +35,7 @@
             </ul>
           </div>
 
-          <div class="col-lg-6 col-md-6 footer-newsletter">
+          <div class="col-lg-6 col-md-12 footer-newsletter">
             <h4><?php echo $translations["Our Newsletter"]; ?></h4>
             <p><?php echo $translations["Subscribe to our newsletter"]; ?></p>
             <form action="forms/subscribe" method="post" class="php-email-form">
