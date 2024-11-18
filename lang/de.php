@@ -16,6 +16,12 @@ $translations = [
     "About Us" => "ÜBER UNS",
     "Our Services" => "Unsere Dienstleistungen",
 
+    "Data Protection" => "Datenschutz",
+    "Imprint" => "Impressum",
+    "Cookie Policy" => "Cookie-Richtlinie",
+    "Conditions" => "Allgemeine Geschäftsbedingungen ",
+    "GTC" => "AGB ",
+
     "AboutSubtitle" => "Entdecken Sie Exzellenz in jedem Detail",
     "AboutDesc" => "Bei NAZET GmbH definieren wir die Kunst der Unterhaltsreinigung neu und verwandeln Räume in makellose Oasen der Hygiene und Schönheit. Mit unserem Engagement für Qualität und unserer Leidenschaft für makellose Umgebungen bieten wir eine umfassende Palette von Dienstleistungen, die auf alle Ihre Reinigungs- und Wartungsanforderungen zugeschnitten sind.",
 
@@ -117,7 +123,7 @@ $translations = [
 
     "Useful Links" => "Nützliche Links",
 
-    "Copyright 2023" => "Urheberrecht 2023",
+    "Copyright 2024" => "Urheberrecht 2024",
     "All Rights Reserved" => "Alle Rechte Vorbehalten.",
     "Designed by" => "Entworfen von  ",
 

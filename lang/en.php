@@ -12,10 +12,15 @@ $translations = [
     "Home" => "Home",
     "About" => "About",
     "Services" => "Services",
-    "Imprint" => "Imprint",
     "Contact Us" => "Contact Us",
     "About Us" => "About Us",
     "Our Services" => "Our Services",
+
+    "Data Protection" => "Data Protection",
+    "Imprint" => "Imprint",
+    "Cookie Policy" => "Cookie Policy",
+    "Conditions" => "General Terms and Conditions ",
+    "GTC" => "GTC ",
 
     "AboutSubtitle" => "Discover Excellence in Every Detail",
     "AboutDesc" => "At NAZET GmbH, we redefine the art of maintenance cleaning, transforming spaces into immaculate havens of hygiene and beauty. With a commitment to quality and a passion for pristine environments, we offer a comprehensive suite of services tailored to meet all your cleaning and maintenance needs.",
@@ -118,7 +123,7 @@ $translations = [
 
     "Useful Links" => "Useful Links",
 
-    "Copyright 2023" => "Copyright 2023",
+    "Copyright 2024" => "Copyright 2024",
     "All Rights Reserved" => "All Rights Reserved.",
     "Designed by" => "Designed by",
 

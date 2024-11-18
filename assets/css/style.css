@@ -1491,7 +1491,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #121d24;
-  padding: 0 0 30px 0;
+  padding: 0px 0px 10px 0px;
   color: #fff;
   font-size: 14px;
 }
@@ -1499,7 +1499,7 @@ section {
 #footer .footer-top {
   background: #15222b;
   border-bottom: 1px solid #1d303c;
-  padding: 60px 0 30px 0;
+  padding: 60px 0 10px 0;
 }
 
 #footer .footer-top .footer-info {
@@ -1539,7 +1539,7 @@ section {
 
 #footer .footer-top .social-links a:hover {
   background: #f8b125;
-  color: #fff;
+  color: #2b1e05;
   text-decoration: none;
 }
 
@@ -1616,10 +1616,12 @@ section {
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
+  font-weight: bold;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
   background: #f8b125;
+  color: #2b1e05;
 }
 
 #footer .copyright {
@@ -1643,5 +1645,35 @@ section {
 }
 
 #footer .footer-top a:hover {
+  color: #f8b125;
+}
+
+#footer .links-container {
+  width: 100%;
+  margin: 20px auto 20px auto;
+  text-align: center;
+}
+
+#footer .links-container ul {
+  margin: 0 auto;
+  display: inline-block;
+  list-style: none;
+  padding-left: 0px;
+}
+
+#footer .links-container ul li {
+  float: left;
+  margin-right: 15px;
+}
+
+#footer .links-container ul li a {
+  text-decoration: underline;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+#footer .links-container ul li a:hover {
+  text-decoration: none;
   color: #f8b125;
 }
