@@ -312,4 +312,7 @@ Die Rechtmäßigkeit der bereits erfolgten Datenverarbeitungsvorgänge bleibt vo
 Nach Ihrer Austragung aus der Newsletterverteilerliste wird Ihre E-Mail-Adresse bei uns bzw. dem Newsletterdiensteanbieter ggf. in einer Blacklist gespeichert, um künftige Mailings zu verhindern. Die Daten aus der Blacklist werden nur für diesen Zweck verwendet und nicht mit anderen Daten zusammengeführt. Dies dient sowohl Ihrem Interesse als auch unserem Interesse an der Einhaltung der gesetzlichen Vorgaben beim Versand von Newslettern (berechtigtes Interesse im Sinne des Art. 6 Abs. 1 lit. f DSGVO). Die Speicherung in der Blacklist ist zeitlich nicht befristet. <br>
 <br>
 Sie können der Speicherung widersprechen, sofern Ihre Interessen unser berechtigtes Interesse überwiegen.",
+
+    "Cookie Policy Title" => "Bei Auftragserteilung werden die nachfolgenden Angaben für alle Auftraggeber Vertragsbestandteil",
+    "Cookie Policy Desc" => "",
 ];

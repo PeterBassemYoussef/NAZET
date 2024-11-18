@@ -318,4 +318,7 @@ $translations = [
   After you have been unsubscribed from the newsletter distribution list, your email address may be stored in a blacklist by us or the newsletter service provider in order to prevent future mailings. The data from the blacklist will only be used for this purpose and will not be merged with other data. This serves both your interest and our interest in complying with legal requirements when sending newsletters (legitimate interest within the meaning of Art. 6 Para. 1 lit. f GDPR). The storage in the blacklist is not limited in time.<br>
   <br>
   You can object to the storage if your interests outweigh our legitimate interests.",
+
+    "Cookie Policy Title" => "Bei Auftragserteilung werden die nachfolgenden Angaben für alle Auftraggeber Vertragsbestandteil",
+    "Cookie Policy Desc" => "",
 ];
