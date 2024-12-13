@@ -230,11 +230,12 @@ h6 {
 
 .navbar .get-started-btn {
   background-color: rgba(255, 255, 255, 0);
+  font-size: 13px;
 }
 
 .navbar .get-started-btn,
 .navbar .get-started-btn:focus {
-  padding: 8px 25px;
+  padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
   color: #fff;
