@@ -11,7 +11,7 @@ if (isset($_GET['lang'])) {
 if ($currentLanguage === "en") {
     include 'lang/en.php';
     $param = '?lang=en';
-    $buttonText = 'Deutschland'; // Set button text to "Deutschland"
+    $buttonText = 'Deutsch'; // Set button text to "Deutschland"
 } elseif ($currentLanguage === "de") {
     include 'lang/de.php';
     $param = '?lang=de';
