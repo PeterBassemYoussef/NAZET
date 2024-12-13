@@ -62,7 +62,7 @@ if ($currentLanguage === "en") {
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
@@ -147,7 +147,7 @@ if ($currentLanguage === "en") {
           <div class="col-lg-11">
             <div class="row justify-content-end">
 
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+              <div class="col-lg-6 col-md-6 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-emoji-smile"></i>
                   <span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>
@@ -155,27 +155,11 @@ if ($currentLanguage === "en") {
                 </div>
               </div>
 
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+              <div class="col-lg-6 col-md-6 col-6 d-md-flex align-items-md-stretch">
                 <div class="count-box">
                   <i class="bi bi-journal-richtext"></i>
                   <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
                   <p><?php echo $translations["Projects"]; ?></p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="bi bi-clock"></i>
-                  <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
-                  <p><?php echo $translations["Hours Of Support"]; ?></p>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
-                <div class="count-box">
-                  <i class="bi bi-award"></i>
-                  <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="purecounter"></span>
-                  <p><?php echo $translations["Hard Workers"]; ?></p>
                 </div>
               </div>
 
@@ -598,7 +582,7 @@ if ($currentLanguage === "en") {
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
