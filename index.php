@@ -381,7 +381,7 @@ if ($currentLanguage === "en") {
             <div class="service">
               <div class="pic"><img src="assets/img/services/service-14.webp" class="img-fluid" alt=""></div>
               <div class="service-info">
-                <h4><?php echo $translations["service13Title"]; ?></h4>
+                <h4>Nazet Estrichbau</h4>
                 <span class="fst-italic"><?php echo $translations["serviceClosingText"]; ?></span>
               </div>
             </div>
